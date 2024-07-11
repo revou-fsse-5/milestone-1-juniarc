@@ -2,7 +2,6 @@ const heroFirstAnimation = document.querySelector('.section__hero__text-containe
 const heroSecondAnimation = document.querySelectorAll('.section__hero__type');
 const heroThirdAnimation = document.querySelector('.section__hero__bg-img');
 const heroForthAnimation = document.querySelector('.header');
-const floatNav = document.querySelector('.float-navigator__container');
 
 heroFirstAnimation.addEventListener('animationend', () => {
     heroSecondAnimation.forEach(element => {
@@ -13,19 +12,38 @@ heroFirstAnimation.addEventListener('animationend', () => {
 
         heroThirdAnimation.addEventListener('animationend', () => {
             heroForthAnimation.classList.add('animation__reveal-header')
-            floatNav.classList.add('animation__reveal-header');
         })
     });
 });
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.3 
+  };
 
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if(entry.isIntersecting) {
             entry.target.classList.add('show');
-        }
+        } 
     })
-});
+}, observerOptions);
 
 const animateElements = document.querySelectorAll('.animate');
-animateElements.forEach((element) => observer.observe(element))
+animateElements.forEach((element) => observer.observe(element));
+
+
+const navMenu = document.querySelector('.header__nav');
+const burgerBtn = document.querySelector('.burger-btn');
+const closeBtn = document.querySelector('.close-btn');
+
+burgerBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+})
+
+closeBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('open')
+})
+
