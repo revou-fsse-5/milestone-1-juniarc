@@ -13,7 +13,7 @@
 
 # Vogue Verve
 
-**Vogue Verve** is a dynamic and innovative company specializing in high-end fashion and lifestyle products. **Vogue Verve Website ** is a website that describe about philosopies and products from Vogue Verve.
+**Vogue Verve** is a dynamic and innovative company specializing in high-end fashion and lifestyle products. **Vogue Verve Website** is a website that describe about philosopies and products from Vogue Verve.
 
 You can access website by click this link: 
 
