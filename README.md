@@ -34,7 +34,9 @@ Website was designed by its philosophy and tagline "Bold Humanity". So i designe
     <img src="./assets-doc/doc-4.png" style="width: 300px" alt="Design board">
 
 3. Implement it to HTML and CSS.
-    First, i made HTML. In HTML, i divided it to several parts by its section to make building process easier. I also add meta tags. After that, i styled the HTML using CSS. You can check files on this repository. There are some features that needs javascript. There are navigation menu that turn into burger button when layout width is under 1280px. There are some animations that use javascript to trigger it with IntersectionObserver API.
+    First, i made HTML. In HTML, i divided it to several parts by its section to make building process easier. I also add meta tags. After that, i styled the HTML using CSS. You can check files on this repository. There are some features that needs javascript. There are navigation menu that turn into burger button when layout width is under 1280px. There are some animations that use javascript to trigger it with IntersectionObserver API. Font that i used is Noto Sans and Roboto from Google fonts and icons format is SVG.
+
+    **There is no libraries usage in this project**.
 
     <img src="./assets-doc/doc-5.png" style="width: 300px" alt="HTML and CSS">
 
