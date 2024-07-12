@@ -512,7 +512,7 @@ h3 {
     opacity: 0.5;
 }
 
-.philosophy__tagline p {
+.philosophy__tagline h1 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
 
@@ -767,7 +767,7 @@ h3 {
     overflow: hidden;
 }
 
-.products__tagline {
+.products__tagline h1 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1081,7 +1081,7 @@ h3 {
         padding: 40px 40px 40px 40px;
     }
 
-    .philosophy__tagline {
+    .philosophy__tagline h1 {
         font-size: 18vw;
         margin-right: 1vw;
     }
@@ -1144,7 +1144,7 @@ h3 {
         padding: 0 40px 40px 0px;
     }
 
-    .products__tagline {
+    .products__tagline h1 {
         font-size: 18vw;
         line-height: 16vw;
         margin-right: 1vw;
@@ -1387,7 +1387,7 @@ h3 {
         height: 75vh;
     }
 
-    .philosophy__tagline {
+    .philosophy__tagline h1 {
         font-size: 18vw;
         margin-right: 1vw;
     }
@@ -1455,11 +1455,11 @@ h3 {
         height: 100vh;
     }
 
-    .products__tagline {
+    .products__tagline h1 {
         font-size: 18vw;
         line-height: 16vw;
         margin-right: 1vw;
-        margin-bottom: -1.5vh;
+        margin-bottom: 0vh;
     }
 
     .products__content {
@@ -1713,7 +1713,7 @@ h3 {
         height: 65vh;
     }
 
-    .philosophy__tagline {
+    .philosophy__tagline h1 {
         font-size: 18vw;
         margin-right: 1vw;
     }
@@ -1785,11 +1785,11 @@ h3 {
         height: 70vh;
     }
 
-    .products__tagline {
+    .products__tagline h1 {
         font-size: 18vw;
         line-height: 16vw;
         margin-right: 1vw;
-        margin-bottom: -1.5vh;
+        margin-bottom: 0vh;
     }
 
     .products__content {
